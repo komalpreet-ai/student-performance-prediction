@@ -54,3 +54,15 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 
 print("\nModel trained successfully!")
+
+# Make predictions
+y_pred = model.predict(X_test)
+
+print("\nPredicted Final Marks:")
+print(y_pred)
+
+# Check model accuracy
+score = model.score(X_test, y_test)
+
+print("\nModel Accuracy:")
+print(score)
