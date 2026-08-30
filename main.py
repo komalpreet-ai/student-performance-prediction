@@ -44,3 +44,13 @@ print(X_train)
 
 print("\nTesting data:")
 print(X_test)
+
+from sklearn.linear_model import LinearRegression
+
+# Create the model
+model = LinearRegression()
+
+# Train the model
+model.fit(X_train, y_train)
+
+print("\nModel trained successfully!")
