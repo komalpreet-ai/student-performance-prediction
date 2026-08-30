@@ -66,3 +66,11 @@ score = model.score(X_test, y_test)
 
 print("\nModel Accuracy:")
 print(score)
+
+# Predict marks for a new student
+new_student = [[5, 80, 70, 8]]
+
+prediction = model.predict(new_student)
+
+print("\nPredicted Final Marks for New Student:")
+print(prediction[0])
