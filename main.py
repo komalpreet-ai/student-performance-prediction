@@ -9,3 +9,14 @@ print(data)
 # Display basic information
 print("\nDataset Information:")
 print(data.info())
+# Show first 5 students
+print("\nFirst 5 rows:")
+print(data.head())
+
+# Show column names
+print("\nColumns:")
+print(data.columns)
+
+# Show basic statistics
+print("\nStatistics:")
+print(data.describe())
